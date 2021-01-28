@@ -10,7 +10,7 @@ com/cms/config/SecurityConfig.class
 com/cms/dao/CustomerDao.class
 com/cms/interceptor/CustomerFilter_3.class
 com/cms/controller/HelloWorld.class
-com/cms/HelloSpringBootApplication.class
 com/cms/controller/CustomerResource.class
 com/cms/config/CustomerFilterConfig.class
+com/cms/CmsApplication.class
 com/cms/interceptor/CustomerFilter_1.class
