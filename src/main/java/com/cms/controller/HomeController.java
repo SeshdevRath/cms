@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 @RestController
-public class Home {
+public class HomeController {
 
     @GetMapping
     public String home() {

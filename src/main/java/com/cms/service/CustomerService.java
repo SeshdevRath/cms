@@ -5,11 +5,12 @@ import com.cms.dto.Customer;
 import com.cms.exception.CustomerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Component
+@Service
 public class CustomerService {
 
     @Autowired
@@ -32,7 +33,7 @@ public class CustomerService {
         if (!optionalCustomer.isPresent()) {
             throw new CustomerNotFoundException("Customer with id " + customerId + " not found");
         }
-        
+
         return optionalCustomer.get();
     }
 

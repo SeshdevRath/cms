@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/customers")
-public class CustomerResource {
+public class CustomerResourceController {
 
     @Autowired
     private CustomerService customerService;
