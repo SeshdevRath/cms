@@ -1,10 +1,9 @@
 package com.cms.service;
 
 import com.cms.dao.CustomerDao;
-import com.cms.dto.Customer;
+import com.cms.entities.Customer;
 import com.cms.exception.CustomerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

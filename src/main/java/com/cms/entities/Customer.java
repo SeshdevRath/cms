@@ -1,4 +1,4 @@
-package com.cms.dto;
+package com.cms.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -2,7 +2,7 @@ package com.cms.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.cms.dto.Customer;
+import com.cms.entities.Customer;
 import com.cms.service.CustomerService;
 
 import java.util.List;

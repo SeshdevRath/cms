@@ -1,6 +1,6 @@
 package com.cms.dao;
 
-import com.cms.dto.Customer;
+import com.cms.entities.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
